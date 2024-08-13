@@ -44,8 +44,21 @@ class GL:
         # você pode assumir inicialmente o desenho dos pontos com a cor emissiva (emissiveColor).
 
         # O print abaixo é só para vocês verificarem o funcionamento, DEVE SER REMOVIDO.
-        print("Polypoint2D : pontos = {0}".format(point)) # imprime no terminal pontos
-        print("Polypoint2D : colors = {0}".format(colors)) # imprime no terminal as cores
+        #print("Polypoint2D : pontos = {0}".format(point)) # imprime no terminal pontos
+        #print("Polypoint2D : colors = {0}".format(colors))
+        
+        r = colors["emissiveColor"][0] * 255
+        g = colors["emissiveColor"][0] * 255
+        b = colors["emissiveColor"][0] * 255
+        # fazer g e b
+
+        for indice in range(0,len(point),2):
+            
+
+
+        # usar for range de 2 em 2
+        # transforme em int
+        # imprime no terminal as cores
 
         # Exemplo:
         pos_x = GL.width//2
